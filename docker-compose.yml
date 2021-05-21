@@ -1,0 +1,16 @@
+version: '3'
+services:
+  spring-jwt-resource-server:
+    image: spring-jwt-resource-server-example:snapshot
+    networks:
+      - spring-jwt-resource-server-network
+    ports:
+      - "8080:8080"
+#    command: [
+#        "java",
+#        "org.springframework.boot.loader.JarLauncher"
+#    ]
+
+
+networks:
+  spring-jwt-resource-server-network: {}
