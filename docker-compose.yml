@@ -1,7 +1,7 @@
 version: '3'
 services:
   spring-jwt-resource-server:
-    image: spring-jwt-resource-server-example:snapshot
+    image: docker.local/spring-jwt-resource-server-example:snapshot
     networks:
       - spring-jwt-resource-server-network
     ports:
