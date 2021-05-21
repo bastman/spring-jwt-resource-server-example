@@ -1,0 +1,19 @@
+{
+  "https://example.com/claims/userid": "my-issuer-1|my-user-id-1",
+  "https://app.example.com/roles": [
+    "my-role-1",
+    "my-role-2"
+  ],
+  "https://example.com/claims/given_name": "my-given-name",
+  "https://example.com/claims/family_name": "my-family-name",
+  "https://example.com/claims/email": "my.email@example.com",
+  "iss": "https://my-issuer-1.local",
+  "sub": "my-issuer-1|my-user-id-1",
+  "aud": [
+    "my-audience-1",
+    "my-audience-2"
+  ],
+  "iat": 1604327123,
+  "exp": 1604377523,
+  "scope": "openid profile email"
+}
