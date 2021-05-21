@@ -1,0 +1,1 @@
+# spring-jwt-resource-server-example
