@@ -14,6 +14,24 @@ $ docker-compose up
 
 
 ```
-swagger-ui: http://localhost:8080/swagger-ui.html
+
+## endpoints
+
+- swagger-ui: http://localhost:8080/swagger-ui.html
+- GET /api/me
+    - describe the current user (derived from jwt)
+    - expose the claims of the jwt
+    - requires bearer-auth
+    
+## bearer auth
+
+http://localhost:8080/swagger-ui.html
+
+click "authorize"
+enter "Bearer <your token>"
+click "login"
+
+You may want to get a valid bearer token issued from an authorization server
+(e.g.: https://github.com/bastman/jwt-fake-authorization-server )
 
 
